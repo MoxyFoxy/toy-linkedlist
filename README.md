@@ -7,7 +7,7 @@ This is a toy implementation of a LinkedList. This is purely for educational pur
   Node class. For info on the linked list data structure, reference https://en.wikipedia.org/wiki/Linked_list
   
 `Members:`
-- **value** - _(<T>)_ The value of the node
+- **value** - _(T)_ The value of the node
 - **next** - _(Node*)_ The next value of the LinkedList
   
 `Methods:`
@@ -16,7 +16,7 @@ This is a toy implementation of a LinkedList. This is purely for educational pur
   Node constructor.
 
 `Parameters:`
-- **value** - _(<T>)_ The value of the generic type
+- **value** - _(T)_ The value of the generic type
 - **next** - _(Node*)_ The next node to point to
   
 ## LinkedList
@@ -31,7 +31,7 @@ This is a toy implementation of a LinkedList. This is purely for educational pur
   Iteratively uses the insert method `LinkedList.insert()` to insert the values into the list.
   
 `Parameters:`
-- **values** - _(const <T> [])_ Array of generic type T
+- **values** - _(const T [])_ Array of generic type T
 - **size** - _(int)_ Size of the array given
   
 ### LinkedList (constructor)
@@ -41,14 +41,14 @@ This is a toy implementation of a LinkedList. This is purely for educational pur
   Inserts a value into the LinkedList.
   
 `Parameters:`
-- **value** - _(const <T>&)_ Value of generic type T
+- **value** - _(const T&)_ Value of generic type T
 
 ### insert
   Inserts an array to the end of the LinkedList.
   Iteratively uses the insert method <see cref="LinkedList{T}.insert(const T& value)"/> to insert the values into the list.
   
 `Parameters:`
-- **values** - _(const <T> [])_ Array of generic type T
+- **values** - _(const T [])_ Array of generic type T
   
 ### get
   Returns a value at specified index.
@@ -70,7 +70,7 @@ This is a toy implementation of a LinkedList. This is purely for educational pur
   Removes a value from the LinkedList.
 
 `Parameters:`
-- **value** - _(const <T>&)_ Value of generic type T
+- **value** - _(const T&)_ Value of generic type T
   
 ### removeat
   Removes the element at specified index from the LinkedList.
