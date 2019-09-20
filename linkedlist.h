@@ -135,26 +135,13 @@ class LinkedList {
 
         /// <summary>
         ///     Returns the last node of the LinkedList.
-        ///     This isn't actually used in this toy implementation, but it'd be a cool feature to have in an actual LinkedList.
         /// </summary>
         ///
         /// <returns>
         ///     Returns the pointer to the last Node. Returns NULL pointer if the list is empty.
         /// </returns>
         Node<T>* getlast() {
-
-            // Initializing node variable
-            Node<T> *node = this->start;
-
-            // Iterate until we reach the end of the list, making sure the list itself is initialized
-            while (node != NULL) {
-                if (node->next == NULL) {
-                    return node;
-                }
-            }
-
-            // This'll return NULL if the list is empty
-            return NULL;
+            return this->head;
         }
 
         /// <summary>

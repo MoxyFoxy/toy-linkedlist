@@ -35,4 +35,6 @@ int main() {
 	ll->remove(9);
 	ll->print();
 	std::cout << '\n';
+
+	std::cout << "Last value: " << ll->getlast()->value;
 }
